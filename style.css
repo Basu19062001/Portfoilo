@@ -113,13 +113,18 @@
         margin-bottom: 1rem;
     }
 
-    .section__title,:not(.about.section__title),
+    .services__about,
     .section__description{
+        margin-top: 2.75rem;
         text-align: center;
     }
     .section__description{
         max-width: 600px;
         margin-inline: auto;
+        margin-bottom: 3.75rem;
+    }
+    .services__item{
+        text-align: start;
     }
 
 
@@ -228,6 +233,29 @@
     }
 
     /* ===== Services =======*/
+
+
+    .services__container{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .services__item{
+        background-color: var(--container-color);
+        padding: 3.5rem 2.5rem;
+        border-radius: var(--radius);
+    }
+    .services__icon{
+        color: var(--first-color);
+        font-size: 3.25rem;
+        line-height: 1;
+    }
+    .services__title{
+        font-size: var(--h3-font-size);
+        font-weight: var(--weidth-500);
+        margin-block: 1.75rem 1.25rem;
+    }
+    .services__description{
+        font-weight: var(--weidth-400);
+    }
     /* ===== Work =======*/
     /* Work hover */
     /* ===== Contact =======*/
