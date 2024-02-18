@@ -358,7 +358,7 @@
     .contact__description{
         margin-bottom: 3rem;
     }
-    .contact__description a{
+    .contact__description a {
         color: var(--title-color);
         font-weight: var(--weidth-500);
     }
@@ -372,7 +372,7 @@
         padding: 0.8rem 1.25rem;
         width: 100%;
         border-radius: var(--radius);
-        font-size: var(--small-font-size);
+        font-size: var(--smaller-font-size);
         margin-bottom: 1.25rem;
     }
     .textarea{
@@ -382,10 +382,13 @@
 
     .error__message{
         position: absolute;
-        bottom: -12%;
-        left: 0;
+        /* bottom: -12%; */
+        /* left: 0; */
         font-size: var(--small-font-size);
         font-weight: var(--weidth-400);
+    }
+    .color-first{
+        color: var(--first-color);
     }
     /* ======= Footer =======*/
 }
