@@ -28,3 +28,10 @@ tabs.forEach((tab)=>{
     });
 });
 /*=================Contact Form=============== */
+
+const contactForm = document.getElementById('contact-form'),
+contactName = document.getElementById('contact-name'),
+contactEmail = document.getElementById('contact-email'),
+contactSubject = document.getElementById('contact-subject'),
+contactMessage = document.getElementById('contact-message'),
+errorMessage = document.getElementById('error-messagee');
